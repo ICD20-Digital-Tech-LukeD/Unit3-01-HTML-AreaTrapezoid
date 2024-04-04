@@ -1,9 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Title</title>
+    <title>Area of a trapezoid</title>
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
-    <p>Paragraph</p>
+    <h1>Area of a trapezoid calculator</h1>
+    <p>Insert your trapezoids dimensions below and press the button to calculate</p>
+    <br>
+    <script src="./js/script.js"></script>
+    <label for="side-a">Side A cm:</label>
+    <input type="number" min="0" id="side-a" placeholder="side a">
+    <br>
+    <label for="side-b">Side B cm:</label>
+    <input type="number" min="0" id="side-b" placeholder="side b">
+    <br>
+    <label for="side-h">Side H cm:</label>
+    <input type="number" min="0" id="side-h" placeholder="side h">
+    <br>
+    <button id="calculate" onclick="areaOfTrapazoid()">Calculate</button>
+    <br>
+    <br>
+    <div id="result"></div>
   </body>
 </html>

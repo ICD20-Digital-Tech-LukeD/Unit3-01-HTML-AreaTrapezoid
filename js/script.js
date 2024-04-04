@@ -1,5 +1,8 @@
-// Copyright (c) 2020 Mr. Coxall All rights reserved
-//
-// Created by: Mr. Coxall
-// Created on: Sep 2020
-// This file contains the JS functions for index.html
+
+function areaOfTrapazoid() {
+  let sideA = document.getElementById("side-a").value
+  let sideB = document.getElementById("side-b").value
+  let sideH = document.getElementById("side-h").value
+  let area = (parseFloat(sideA) + parseFloat(sideB)) * parseFloat(sideH) / 2;
+  document.getElementById("result").innerHTML = 'The area is ' + area.toFixed(2) + ' cm²';
+    }
